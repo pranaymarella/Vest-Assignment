@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 30px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1em;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-title {
+  font-size: 0.75em;
+}

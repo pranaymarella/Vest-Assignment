@@ -1,0 +1,13 @@
+.total-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.total {
+  padding: 10px;
+}
+
+.total-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
