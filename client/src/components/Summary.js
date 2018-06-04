@@ -4,23 +4,39 @@ import { Doughnut } from 'react-chartjs-2';
 
 const data = {
 	labels: [
-		'Red',
-		'Green',
-		'Yellow'
+		'ETF1',
+		'ETF2',
+		'ETF3',
+		'ETF4',
+		'ETF5'
 	],
 	datasets: [{
 		data: [75, 75, 150],
 		backgroundColor: [
-		'#FF6384',
-		'#36A2EB',
-		'#FFCE56'
+		'lightgrey',
+		'#f2f2f2',
+		'darkgrey',
+		'#f2f2f2',
+		'#f2f2f2'
 		],
 		hoverBackgroundColor: [
-		'#FF6384',
-		'#36A2EB',
-		'#FFCE56'
+		'lightgrey',
+		'#f2f2f2',
+		'darkgrey',
+		'#f2f2f2',
+		'#f2f2f2'
 		]
 	}]
+};
+
+const legendOpts = {
+	display: true,
+	position: 'right',
+	fullWidth: false,
+	reverse: false,
+	labels: {
+		fontColor: '#262626'
+	}
 };
 
 class Summary extends Component {
@@ -76,6 +92,7 @@ class Summary extends Component {
         <p className="asset-mix-title">ASSET MIX</p>
         <Doughnut
           data={data}
+					legend={legendOpts}
         />
       </div>
     );
