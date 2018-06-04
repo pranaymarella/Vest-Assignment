@@ -11,7 +11,7 @@ const data = {
 		'ETF5'
 	],
 	datasets: [{
-		data: [75, 75, 150],
+		data: [75, 75, 150, 0, 0],
 		backgroundColor: [
 		'lightgrey',
 		'#f2f2f2',
