@@ -1,5 +1,6 @@
 .dropdown {
   background-color: #ccc;
+  position: relative;
 }
 
 .dropdown p {
@@ -8,7 +9,7 @@
 }
 
 .dropdown-label {
-  color: black;
+  color: #000080;
   font-size: 0.75em;
 }
 

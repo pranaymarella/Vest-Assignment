@@ -4,10 +4,11 @@
   font-size: 0.5em;
   align-items: center;
   justify-content: flex-start;
+  color: grey;
 }
 
 .divider {
-  background-color: black;
+  background-color: #d9d9d9;
   width: 50px;
   height: 1px;
   margin: 0px 10px 0px 10px;
@@ -15,4 +16,13 @@
 
 .asset-mix-title {
   font-size: 0.5em;
+  color: grey;
+}
+
+.set-width {
+  width: 100px;
+}
+
+.summary-balance {
+  color: black;
 }

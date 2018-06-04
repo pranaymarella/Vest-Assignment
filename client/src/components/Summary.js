@@ -47,24 +47,30 @@ class Summary extends Component {
         <p className="category-title"><strong>Summary</strong></p>
 
         <div className="summary-item">
-          <p>BEGINNING BALANCE</p>
+					<div className="set-width">
+          	<p>BEGINNING BALANCE</p>
+					</div>
           <div className="divider">
           </div>
-          <p>{this.state.beginningBalance}</p>
+          <p className="summary-balance">{this.state.beginningBalance}</p>
         </div>
 
         <div className="summary-item">
-          <p>CHANGE IN BALANCE</p>
+					<div className="set-width">
+          	<p>CHANGE IN BALANCE</p>
+					</div>
           <div className="divider">
           </div>
-          <p>{this.state.changeInBalance}</p>
+          <p className="summary-balance">{this.state.changeInBalance}</p>
         </div>
 
         <div className="summary-item">
-          <p>ENDING BALANCE</p>
+					<div className="set-width">
+          	<p>ENDING BALANCE</p>
+					</div>
           <div className="divider">
           </div>
-          <p>{this.state.endingBalance}</p>
+          <p className="summary-balance">{this.state.endingBalance}</p>
         </div>
 
         <p className="asset-mix-title">ASSET MIX</p>

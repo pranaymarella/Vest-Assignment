@@ -5,9 +5,23 @@
 
 .total {
   padding: 10px;
+  background-color: #e6f2ff;
 }
 
 .total-title {
   margin-top: 5px;
   margin-bottom: 5px;
+  color: #000080;
+}
+
+.t-text {
+  color: #000080;
+}
+
+.t-div {
+  width: 90%;
+  margin: -5px 0px -5px 0px;
+  padding: 0px;
+  border: 0;
+  border-bottom: solid 1px #d9d9d9;
 }
