@@ -1,9 +1,10 @@
 .nav-container {
   display: flex;
   flex-direction: row;
+  background-color: lightgrey;
   justify-content: space-around;
-  background-color: grey;
   align-content: flex-end;
+  font-size: 0.8em;
 }
 
 a {
